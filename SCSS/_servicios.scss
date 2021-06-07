@@ -1,0 +1,30 @@
+.servicios__servicios{
+    color: #666666;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Encode Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0px 2px;
+}
+
+.servicios__subServicios{
+    color:white;
+    background-color: #0668b3d7;
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: 'Encode Sans', sans-serif;
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 20px;
+}
+
+ul ul{
+    position:absolute;
+    display: none;
+}
+
+ul li:hover ul{
+    display: block;
+}

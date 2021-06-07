@@ -1,0 +1,29 @@
+#header__menu {
+    color: white;
+    font-size: 1.50rem;
+    font-weight: 300;
+    font-family: 'Encode Sans', sans-serif;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+}
+
+header{
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.header__menu{
+    padding-left:60px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

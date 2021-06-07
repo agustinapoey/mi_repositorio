@@ -1,0 +1,6 @@
+@for $tipografia from 75 through 100  {
+    .caja-#{$tipografia} {
+        width: $tipografia *1%;
+
+    }
+}
