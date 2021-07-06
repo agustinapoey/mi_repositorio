@@ -429,8 +429,8 @@ hr {
 
 @media only screen and (max-width: 600px) {
   .gridGeneral {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
     margin-bottom: 10px;
     display: grid;
     grid-template-columns: 580px; }
@@ -443,7 +443,7 @@ hr {
   .noticias__grid {
     display: grid;
     grid-template-columns: 288px 288px;
-    grid-column-gap: 2px;
+    grid-column-gap: 15px;
     grid-template-rows: 60px 248px 248px 248px;
     grid-row-gap: 20px; }
   .servicios__servicios {
@@ -513,7 +513,7 @@ hr {
   }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 960px){
   .gridGeneral {
     margin-right: 80px;
     margin-left: 80px;
